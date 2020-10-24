@@ -1,11 +1,9 @@
 <p align="center">
   <img src="./src/Screens/Start/image/welcome.png" height="175" alt="App Wether" />
 </p>
-<h2 align="center">
+<h3 align="center">
 App Weather 🌤
-</h2>
-
-<br>
+</h3>
 
 <hr />
 
