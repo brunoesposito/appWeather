@@ -15,8 +15,10 @@ const ListHour: React.FC<TypeWeatherComponent> = ({weather}) => {
             <Text>{getHourDate(item.dt_txt)}</Text>
             <Text>{item.weather[0].description}</Text>
             <BoxMaxMin>
-              <Text>{toFixedNumber(item.main.temp_max)}° / </Text>
-              <Text>{toFixedNumber(item.main.temp_min)}°</Text>
+              <Text>
+                {toFixedNumber(item.main.temp_max)}° /{' '}
+                {toFixedNumber(item.main.temp_min)}°
+              </Text>
             </BoxMaxMin>
           </Row>
           {index < 6 && <Hr />}
